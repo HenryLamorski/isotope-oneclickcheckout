@@ -16,3 +16,12 @@ ClassLoader::addNamespaces(array
 (
 	'Isotope',
 ));
+
+/**
+ * Register the classes
+ */
+ClassLoader::addClasses(array
+(
+	// Src
+	'Isotope\Module\OneClickCheckout' => 'system/modules/isotope-onclickcheckout/src/Isotope/Module/OneClickCheckout.php',
+));
